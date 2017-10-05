@@ -1,6 +1,5 @@
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
-	console.log('in extension')
         if( details.url == "https://www.amazon.com/" )
             return {redirectUrl: "https://www.amazon.com/?tag=gardencoopftw-20" };
     },
