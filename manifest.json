@@ -4,7 +4,7 @@
   "name": "The Garden Nursery School",
   "short_name": "The Garden",
   "description": "This extension redirects all Amazon links to use the Garden Nursery School in Eagle Rock affiliate link!",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "icon.png",
